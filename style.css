@@ -1,19 +1,103 @@
-*{
-  padding: 0;
-  margin: 0;
+body {
+  margin:0;
+  background: linear-gradient(to left,#203a43,#2c5364);
+  text-align:bottom;
+  background-image: url("images/forest.jpg");
+  background-position: bottom;
+  clear:left;
 }
 
-body{
-  height: 100vh;
-  background: linear_gradient(
-    to right,
-    pink 0%,
-    pink 50%
-    paleturquoise 50%
-    paleturquoise 100%
-  );
+.castle {
+  font-family: 'Comic Sans MS';
+  font-size:16px;
+  color: white;
+  margin:30px;
+}
 
+.container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  margin: 0px;
+}
+
+.box {
+  float:left;
+  position:relative;
+  background-color:#13171f;
+  width: 99%;
+  height: 250px;
+  border: 1px solid white;
+  display:flex;
+  margin:10px;
+}
+
+.area{
+  float:left;
+  clear:both;
+  position:relative;
+  border: 2px solid;
+  background-color: #13171f;
+  width:250px;
+  height:90%;
+  margin:5px;
+  border: 1px solid #73767a;
+  display:flex;
+}
+
+.area2 {
+  float: left;
+  clear: both;
+  position: relative;
+  border: 2px solid;
+  background-color: #13171f;
+  width: 500px;
+  height: 90%;
+  margin: 5px;
+  border: 1px solid #73767a;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.subarea{
+  position:relative;
+  margin: 7px;
+  color:white;
+  display: inline-block;
+  bottom:0;
+}
+
+.subarea2 {
+  position:absolute;
+  margin: 7px;
+  color: white;
+  display: inline-block;
+  bottom: 20px;
+}
+
+.subarea3 {
+  position: absolute;
+  margin: 7px;
+  color: white;
+  display: inline-block;
+  bottom: 20px;
+  left: 1150px;
+}
+
+.project1{
+  height:50px;
+  background-color:#13171f;
+  border-bottom: 1px solid white;
+}
+
+.project2{
+  height:120px;
+  text-align:center;
+  align-content:center;
+  color:white;
+  background-color:#101a2d;
+}
+
+.project3{
+  height:70px;
+
 }
